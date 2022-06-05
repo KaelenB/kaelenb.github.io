@@ -3,8 +3,6 @@ import { Component } from "@angular/core";
 @Component({
   selector: "app-root",
   template: `
-    <span>bingo !</span>
-
     <div class="pdf-container">
       <pdf-viewer [src]="pdfSrc" [original-size]="true" style="height: 100vh;">
       </pdf-viewer>
