@@ -1,5 +1,6 @@
 import { Component, OnInit } from "@angular/core";
 import { Router } from "@angular/router";
+import { COLS, ROWS } from "../known.const";
 
 @Component({
   selector: "app-main-menu",
